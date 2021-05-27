@@ -1,0 +1,41 @@
+/* Patička */
+
+footer {
+  background-color: rgb(0, 61, 91);
+  color: white;
+  text-align: center;
+}
+
+footer h3 {
+  margin: 0;
+  text-align: left;
+  padding: 1rem 2rem;
+}
+
+.footer__box {
+  display: flex;
+}
+
+.footer__contacts p {
+  display: inline-block;
+  text-align: left;
+  font-size: 10px;
+  line-height: 1;
+  margin: 0;
+}
+
+.logo {
+  width: 100px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__copyright {
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  margin: 0;
+}

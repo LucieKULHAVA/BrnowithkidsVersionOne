@@ -4,40 +4,51 @@ import HeaderMenu from './HeaderMenu';
 import './style.css';
 
 const Header = (props) => {
+  const [burgerExpanded, setBurgerExpandedState] = useState(false);
 
-    const [burgerExpanded, setBurgerExpandedState] = useState(false);
+  const expandBurgerNavigation = (e) => {
+    e.preventDefault();
 
-    const expandBurgerNavigation = (e) => {
-        e.preventDefault();
+    setBurgerExpandedState(true);
+  };
 
-        setBurgerExpandedState(true);
-    };
+  const closeBurgerNavigation = (e) => {
+    e.preventDefault();
 
-    const closeBurgerNavigation = (e) => {
-        e.preventDefault();
+    setBurgerExpandedState(false);
+  };
 
-        setBurgerExpandedState(false);
-    };
+  return (
+    <header className={burgerExpanded ? 'burger-expanded' : 'burger-collapsed'}>
+      <h1>
+        <a href="index.html">Brno with Kids</a>
+      </h1>
 
-    return (
-        <header className={burgerExpanded ? "burger-expanded" : "burger-collapsed" }>
-            <h1><a href="index.html">Brno with Kids</a></h1>
+      <span
+        className="navigation__burger-btn"
+        onClick={() => {
+          setBurgerExpandedState(!burgerExpanded);
+        }}
+      >
+        <i className="fas fa-bars"></i>
+      </span>
+      <nav className="static-navigation">
+        <HeaderMenu />
+      </nav>
 
-            <span class="navigation__burger-btn" onClick={() => {setBurgerExpandedState(!burgerExpanded)}}>
-                <i class="fas fa-bars"></i>
-            </span>
-            <nav class="static-navigation">
-                <HeaderMenu />
-            </nav>
-
-            <nav class="burger-navigation">
-                <span class="navigation__close-btn" onClick={() => {setBurgerExpandedState(!burgerExpanded)}}>
-                    <i class="fas fa-times"></i>
-                </span>
-                <HeaderMenu />
-            </nav>
-        </header>
-    );
+      <nav className="burger-navigation">
+        <span
+          className="navigation__close-btn"
+          onClick={() => {
+            setBurgerExpandedState(!burgerExpanded);
+          }}
+        >
+          <i className="fas fa-times"></i>
+        </span>
+        <HeaderMenu />
+      </nav>
+    </header>
+  );
 };
 
 export default Header;

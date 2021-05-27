@@ -1,141 +1,149 @@
 /* hlavicka */
 
 header {
-    min-height: 97px;
+  min-height: 97px;
 }
 
 header.burger-collapsed {
-    width: 100%;
+  width: 100%;
 }
 
 header.burger-collapsed .navigation__burger-btn {
-    display: block;
+  display: block;
 }
 
 header h1 {
-    font-family: 'Yeseva One', cursive;
-    background-color: rgb(237, 174, 73);
-    margin: 0;
-    padding: 2rem 0 1rem 3rem;
+  font-family: 'Yeseva One', cursive;
+  background-color: rgb(237, 174, 73);
+  margin: 0;
+  padding: 2rem 0 1rem 3rem;
 }
 
 header h1 a {
-    color: rgb(0, 121, 140);
-    text-decoration: none;
+  color: rgb(0, 121, 140);
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: white;
 }
 
 header.burger-expanded {
-    background: rgba(255, 255, 255, 0.95);
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 header.burger-expanded .navigation__burger-btn {
-    display: none;
+  display: none;
 }
 
 header.burger-collapsed {
-    position: fixed;
-    background-color: rgb(237, 174, 73);
-    display: flex;
-    align-items: flex-start;
+  position: fixed;
+  background-color: rgb(237, 174, 73);
+  display: flex;
+  align-items: flex-start;
 }
 
 header.burger-collapsed h1 {
-    position: fixed;
-    display: inline-block;
-    background: transparent;
+  position: fixed;
+  display: inline-block;
+  background: transparent;
 }
 
 header.burger-collapsed .burger-navigation {
-    display: none;
+  display: none;
 }
 
-.navigation__close-btn, .navigation__burger-btn {
-    position: absolute;
-    color: rgb(0, 121, 140);
-    font-size: 3rem;
-    top: 1rem;
-    right: 2rem;
-    cursor: pointer;
+.navigation__close-btn,
+.navigation__burger-btn {
+  position: absolute;
+  color: rgb(0, 121, 140);
+  font-size: 3rem;
+  top: 1rem;
+  right: 2rem;
+  cursor: pointer;
 }
 
 .navigation__close-btn:hover {
-    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
 }
 
 .navigation__burger-btn {
-    font-size: 2.5rem;
-    top: 1.6rem;
+  font-size: 2.5rem;
+  top: 1.6rem;
 }
 
 nav.static-navigation {
-    display: none;
+  display: none;
 }
 
 nav.static-navigation ul li {
-    display: inline-block;
-    width: auto;
-    padding: 0 1em;
+  display: inline-block;
+  width: auto;
+  padding: 0 1em;
 }
 
 /* menu */
 
 .nav-btn {
-    width: 4rem;
-    height: 4rem;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    background-size: contain;
-    cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-size: contain;
+  cursor: pointer;
 }
 
 .nav-closed {
-    display: none;
+  display: none;
 }
 
 nav li {
-    list-style: none;
-    border-bottom: 2px solid rgb(237, 174, 73);
-    max-width: 250px;
+  list-style: none;
+  border-bottom: 2px solid rgb(237, 174, 73);
+  max-width: 250px;
 }
 
 nav ul li a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 1rem;
-    color: rgb(0, 121, 140);
-    font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+  color: rgb(0, 121, 140);
+  font-weight: bold;
 }
 
 ul.menu {
-    padding: 0;
+  padding: 0;
 }
 
-
 @media screen and (min-width: 1300px) {
-    /* menu */
-    .navigation {
-      flex-direction: row;
-      padding-top: 1.6rem;
-    }
-  
-    .navigation__burger-btn {
-      display: none !important;
-    }
-  
-    nav.static-navigation {
-      display: inline-block;
-      position: absolute;
-      top: 1rem;
-      right: 2rem;
-    }
-  
-    .nav-closed {
-      display: block;
-    }
+  /* menu */
+  .navigation {
+    flex-direction: row;
+    padding-top: 1.6rem;
+  }
+
+  .navigation__burger-btn {
+    display: none !important;
+  }
+
+  nav.static-navigation {
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+
+  nav.static-navigation li a:hover {
+    color: white;
+  }
+
+  .nav-closed {
+    display: block;
+  }
 }

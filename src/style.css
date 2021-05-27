@@ -21,3 +21,20 @@ body {
   line-height: 1.5;
 }
 
+/* main */
+.container {
+  background-color: white;
+  /* margin-top: 97px; */
+}
+.container h2 {
+  padding: 30px;
+  margin: 0;
+}
+
+.container p {
+  padding: 0 30px;
+}
+
+h2 {
+  color: rgb(237, 174, 73);
+}
