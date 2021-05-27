@@ -2,18 +2,18 @@ import React from 'react';
 import { render } from 'react-dom';
 
 import Footer from './components/Footer';
+import Header from './components/Header/Header';
 
 import './style.css';
 
 const App = () => (
   <div className="container">
-    <header>
-      <div className="logo"></div>
-      <h1>Webová aplikace</h1>
-    </header>
+    <Header />
+
     <main>
-      <p>Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>.</p>
+      <span>TODO</span>
     </main>
+
     <Footer />
   </div>
 );
