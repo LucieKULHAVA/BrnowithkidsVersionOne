@@ -6,9 +6,9 @@
 
 .pruh .pic__title {
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
-  transform: translateY(-140%);
+  transform: translateY(-145%);
   color: white;
   font-size: 24px;
   padding: 15px;
@@ -28,16 +28,5 @@
   .page__menu--item img {
     width: 100%;
     max-height: 100%;
-  }
-
-  .pruh .pic__title {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.7);
-    text-align: center;
-    transform: translateY(-140%);
-    color: white;
-    font-size: 24px;
-    padding: 15px;
-    width: 100%;
   }
 }
