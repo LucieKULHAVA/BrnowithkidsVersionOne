@@ -1,5 +1,10 @@
 import React from 'react';
 import Medailonky from './Medailonky';
+import WhatWeDo from './WhatWeDo';
+import FuturePlan from './FuturePlan';
+import { Profil } from '../../constants/medailonek';
+import { WhatWeDoList } from '../../constants/whatWeDo';
+import { FuturePlanList } from '../../constants/futurePlan';
 
 import './style.css';
 
@@ -23,108 +28,42 @@ const MainPage = () => (
       </p>
       <h2>What we do</h2>
       <ul>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
+        {WhatWeDoList.map((seznam) => (
+          <WhatWeDo
+            key={seznam.activities}
+            src={seznam.src}
+            activities={seznam.activities}
           />
-          <span className="activities">Family hikes</span>
-        </li>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
-          />
-          <span className="activities">Parenting meetups</span>
-        </li>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
-          />
-          <span className="activities">BodyArt training for mums</span>
-        </li>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
-          />
-          <span className="activities">Couses and DIY workshops</span>
-        </li>
+        ))}
       </ul>
       <h2>What are we planning for the future?</h2>
       <ul>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
+        {FuturePlanList.map((seznam) => (
+          <FuturePlan
+            key={seznam.activities}
+            src={seznam.src}
+            activities={seznam.activities}
           />
-          <span className="activities">Lactation counselling</span>
-        </li>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
-          />
-          <span className="activities">Artetherapy workshops</span>
-        </li>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
-          />
-          <span className="activities">Parental support meetings</span>
-        </li>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
-          />
-          <span className="activities">
-            Courses of Czech language for parents on parental leave (together
-            with your baby)
-          </span>
-        </li>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
-          />
-          <span className="activities">Course of first aid in children</span>
-        </li>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
-          />
-          <span className="activities">
-            Culinary workshops for parents on parental leave(inspiration &
-            shared lunches)
-          </span>
-        </li>
-        <li>
-          <img
-            className="sipka"
-            src="/assets/icons/sipkafinal.jpg"
-            alt="šipka"
-          />
-          <span className="activities">And more...</span>
-        </li>
+        ))}
       </ul>
       <p>Looking forward to seeing you!</p>
       <p>The team of organisers</p>
     </section>
-    <Medailonky />
+    <section className="team intro">
+      <h2>Meet our team</h2>
+      <div className="team">
+        {Profil.map((profile) => (
+          <Medailonky
+            key={profile.name}
+            src={profile.src}
+            name={profile.name}
+            homecountry={profile.homecountry}
+            languages={profile.languages}
+            kids={profile.kids}
+          />
+        ))}
+      </div>
+    </section>
   </main>
 );
 
