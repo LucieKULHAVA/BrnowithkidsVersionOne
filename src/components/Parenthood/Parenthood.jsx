@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 import { ParenthoodPageMenu } from '../../constants/parenthoodPageMenu';
-import HealthCareMenu from '../../HealthCare/HealthCareMenu';
+import HealthCareMenu from '../HealthCare/HealthCareMenu';
 
-const Parenthood = () => {
+const Parenthood = () => (
   <div className="page__menu">
     {ParenthoodPageMenu.map((item) => (
       <HealthCareMenu
@@ -12,7 +12,7 @@ const Parenthood = () => {
         pageName={item.pageName}
       />
     ))}
-  </div>;
-};
+  </div>
+);
 
 export default Parenthood;

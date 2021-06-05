@@ -21,7 +21,9 @@ const Header = (props) => {
   return (
     <header className={burgerExpanded ? 'burger-expanded' : 'burger-collapsed'}>
       <h1>
-        <a href="index.html">Brno with Kids</a>
+        <a title="Brno with kids" href="/">
+          Brno with Kids
+        </a>
       </h1>
 
       <span

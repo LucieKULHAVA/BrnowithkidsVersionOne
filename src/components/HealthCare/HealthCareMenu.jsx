@@ -1,15 +1,15 @@
 import React from 'react';
 import './style.css';
 
-const HealthCareMenu = ({ src, pageName }) => {
+const HealthCareMenu = ({ src, pageName }) => (
   <div className="page__menu--item">
-    <a href="#">
+    <a href="/healthCare">
       <img src={src} alt={pageName} />
     </a>
     <div className="pruh">
       <p className="pic__title">{pageName}</p>
     </div>
-  </div>;
-};
+  </div>
+);
 
 export default HealthCareMenu;

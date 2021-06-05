@@ -12,7 +12,7 @@ export const EducationPageMenu = [
     pageName: 'High schools in Brno',
   },
   {
-    src: '/assets/img/travellingImg/university.png',
+    src: '/assets/img/educationImg/university.png',
     pageName: 'Universities in Brno',
   },
 ];
