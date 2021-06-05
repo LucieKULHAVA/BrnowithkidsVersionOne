@@ -3,7 +3,7 @@ import './style.css';
 
 const HealthCareMenu = ({ src, pageName }) => (
   <div className="page__menu--item">
-    <a href="/healthCare">
+    <a href="/healthCare/vaccination">
       <img src={src} alt={pageName} />
     </a>
     <div className="pruh">

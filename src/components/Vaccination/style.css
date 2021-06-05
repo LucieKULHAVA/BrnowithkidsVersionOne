@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   filter: opacity(25%);
-  background: url(/assets/img/healthCareImg/vaccination.jpg);
+  background: url(../../assets/img/healthCareImg/vaccination.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-size: cover;

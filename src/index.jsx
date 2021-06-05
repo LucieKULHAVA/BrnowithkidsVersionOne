@@ -8,6 +8,7 @@ import HealthCare from './components/HealthCare/HealthCare';
 import Travelling from './components/Travelling/Travelling';
 import Education from './components/Education/Education';
 import Parenthood from './components/Parenthood/Parenthood';
+import Vaccination from './components/Vaccination/Vaccination';
 
 import './style.css';
 
@@ -21,8 +22,11 @@ const App = () => (
           <Route exact path="/">
             <MainPage />
           </Route>
-          <Route path="/healthCare">
+          <Route exact path="/healthCare">
             <HealthCare />
+          </Route>
+          <Route path="/healthCare/vaccination">
+            <Vaccination />
           </Route>
           <Route path="/travelling">
             <Travelling />
