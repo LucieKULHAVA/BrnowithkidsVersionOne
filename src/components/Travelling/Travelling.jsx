@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 import { TravellingPageMenu } from '../../constants/travellingPageMenu';
-import HealthCareMenu from '../../HealthCare/HealthCareMenu';
+import HealthCareMenu from '../HealthCare/HealthCareMenu';
 
-const Travelling = () => {
+const Travelling = () => (
   <div className="page__menu">
     {TravellingPageMenu.map((item) => (
       <HealthCareMenu
@@ -12,7 +12,7 @@ const Travelling = () => {
         pageName={item.pageName}
       />
     ))}
-  </div>;
-};
+  </div>
+);
 
 export default Travelling;
