@@ -4,8 +4,11 @@
   "description": "Starter kit for React JavaScript project",
   "main": "index.js",
   "scripts": {
+    "prebuild": "npm run cleanup",
     "build": "webpack --mode=production",
-    "start": "webpack serve --open"
+    "prestart": "npm run cleanup",
+    "start": "webpack serve --open",
+    "cleanup": "rimraf ./dist"
   },
   "author": "",
   "license": "ISC",
