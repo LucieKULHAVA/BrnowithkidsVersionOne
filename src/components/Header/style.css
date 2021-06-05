@@ -121,6 +121,10 @@ nav ul li a {
   font-weight: bold;
 }
 
+nav ul li a.active {
+  color: rgba(255, 255, 255, 0.95);
+}
+
 ul.menu {
   padding: 0;
 }
@@ -149,5 +153,13 @@ ul.menu {
 
   .nav-closed {
     display: block;
+  }
+
+  header.burger-expanded .burger-navigation {
+    display: none;
+  }
+
+  header.burger-expanded {
+    bottom: auto;
   }
 }
