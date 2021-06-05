@@ -13,7 +13,7 @@ const MainPage = () => (
     <section className="main__picture">
       <img
         className="main__pic"
-        src="/assets/img/cover photo.jpg"
+        src="/assets/img/coverPic.jpg"
         alt="picture of family in the nature"
       />
     </section>
