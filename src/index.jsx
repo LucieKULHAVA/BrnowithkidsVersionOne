@@ -10,7 +10,7 @@ import Education from './components/Education/Education';
 import Parenthood from './components/Parenthood/Parenthood';
 import Vaccination from './components/Vaccination/Vaccination';
 import Search from './components/Search/index';
-import FamilyDayOut from './components/DaysOut/index';
+
 
 import './style.css';
 
@@ -37,7 +37,7 @@ const App = () => (
             <Education />
           </Route>
            <Route path="/daysOut">
-            <FamilyDayOut />
+            <Search />
           </Route>
           <Route path="/parenthood">
             <Parenthood />
