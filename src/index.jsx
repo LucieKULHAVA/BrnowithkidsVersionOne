@@ -5,13 +5,15 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import MainPage from './components/Main/MainPage';
 import HealthCare from './components/HealthCare/HealthCare';
+import Travelling from './components/Travelling/Travelling';
+import Education from './components/Education/Education';
+import Parenthood from './components/Parenthood/Parenthood';
 
 import './style.css';
 
 const App = () => (
   <Router>
     <div className="banner">
-      <Link to="/healthCare">Health Care</Link>
       <Header />
 
       <main className="container">
@@ -21,6 +23,15 @@ const App = () => (
           </Route>
           <Route path="/healthCare">
             <HealthCare />
+          </Route>
+          <Route path="/travelling">
+            <Travelling />
+          </Route>
+          <Route path="/education">
+            <Education />
+          </Route>
+          <Route path="/parenthood">
+            <Parenthood />
           </Route>
         </Switch>
       </main>

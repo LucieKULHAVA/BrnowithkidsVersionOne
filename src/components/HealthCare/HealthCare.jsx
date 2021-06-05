@@ -3,7 +3,7 @@ import './style.css';
 import { HealthCarePageMenu } from '../../constants/healthCarePageMenu';
 import HealthCareMenu from './HealthCareMenu';
 
-const HealthCare = () => {
+const HealthCare = () => (
   <div className="page__menu">
     {HealthCarePageMenu.map((item) => (
       <HealthCareMenu
@@ -12,7 +12,7 @@ const HealthCare = () => {
         pageName={item.pageName}
       />
     ))}
-  </div>;
-};
+  </div>
+);
 
 export default HealthCare;
