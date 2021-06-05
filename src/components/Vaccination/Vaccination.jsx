@@ -56,19 +56,13 @@ const Vaccination = () => {
         <div className="table__scheme">
           <h3>Legitimate vaccination</h3>
           <table>
-            {VaccinationTable1.map((vakcina) => (
-              <VaccinationTable
-                age={vakcina.age}
-                disease={vakcina.disease}
-                vaccine={vakcina.vaccine}
-              />
-            ))}
+            <VaccinationTable data={VaccinationTable1} />
           </table>
         </div>
         <div className="table__scheme">
           <h3>Recommended vaccination</h3>
           <table>
-            <VaccinationTable />
+            <VaccinationTable data={VaccinationTable2} />
           </table>
         </div>
       </section>

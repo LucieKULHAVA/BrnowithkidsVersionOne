@@ -2,13 +2,26 @@ import React from 'react';
 
 import './style.css';
 
-const VaccinationTable = ({ age, disease, vaccine }) => {
+const VaccinationTable = ({ data }) => {
   return (
-    <tr>
-      <th>Child´s age of vaccination</th>
-      <th>Disease</th>
-      <th>Vaccine</th>
-    </tr>
+    <>
+      <thead>
+        <tr>
+          <th>Child´s age of vaccination</th>
+          <th>Disease</th>
+          <th>Vaccine</th>
+        </tr>
+      </thead>
+      <tbody>
+        {data.map((row) => (
+          <tr>
+            <td>{row.age}</td>
+            <td>{row.disease}</td>
+            <td>{row.vaccine}</td>
+          </tr>
+        ))}
+      </tbody>
+    </>
   );
 };
 
