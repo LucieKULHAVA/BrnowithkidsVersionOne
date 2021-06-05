@@ -9,6 +9,8 @@ import Travelling from './components/Travelling/Travelling';
 import Education from './components/Education/Education';
 import Parenthood from './components/Parenthood/Parenthood';
 import Vaccination from './components/Vaccination/Vaccination';
+import Search from './components/Search/index';
+import FamilyDayOut from './components/DaysOut/index';
 
 import './style.css';
 
@@ -33,6 +35,9 @@ const App = () => (
           </Route>
           <Route path="/education">
             <Education />
+          </Route>
+           <Route path="/daysOut">
+            <FamilyDayOut />
           </Route>
           <Route path="/parenthood">
             <Parenthood />
