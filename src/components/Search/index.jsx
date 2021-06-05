@@ -6,7 +6,7 @@ import { DayOut } from './daysout';
 import SearchBar from './SearchBar/searchbar';
 import Fuse from 'fuse.js';
 
-const App = () => {
+const Search = () => {
   const [tripResult, setTripResult] = useState(DayOut);
   const searchNazev = (pattern) => {
     if (!pattern) {
@@ -56,5 +56,5 @@ const App = () => {
     </>
   );
 };
-
-render(<App />, document.querySelector('#app'));
+ 
+export default Search;
