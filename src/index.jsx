@@ -10,7 +10,7 @@ import Education from './components/Education/Education';
 import Parenthood from './components/Parenthood/Parenthood';
 import Vaccination from './components/Vaccination/Vaccination';
 import Search from './components/Search/index';
-
+import SearchDoctor from './components/SearchDoctors/index';
 
 import './style.css';
 
@@ -30,13 +30,16 @@ const App = () => (
           <Route path="/healthCare/vaccination">
             <Vaccination />
           </Route>
+          <Route path="/healthCare/findAdoctor">
+            <SearchDoctor />
+          </Route>
           <Route path="/travelling">
             <Travelling />
           </Route>
           <Route path="/education">
             <Education />
           </Route>
-           <Route path="/daysOut">
+          <Route path="/daysOut">
             <Search />
           </Route>
           <Route path="/parenthood">

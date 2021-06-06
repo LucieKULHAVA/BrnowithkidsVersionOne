@@ -1,9 +1,10 @@
 import React from 'react';
 import './style.css';
 
-const HealthCareMenu = ({ src, pageName }) => (
+const HealthCareMenu = ({ url, src, pageName }) => (
   <div className="page__menu--item">
-    <a href="/healthCare/vaccination">
+    {console.log(url)}
+    <a href={url}>
       <img src={src} alt={pageName} />
     </a>
     <div className="pruh">

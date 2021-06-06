@@ -8,6 +8,7 @@ const HealthCare = () => (
     {HealthCarePageMenu.map((item) => (
       <HealthCareMenu
         key={item.pageName}
+        url={item.url}
         src={item.src}
         pageName={item.pageName}
       />
