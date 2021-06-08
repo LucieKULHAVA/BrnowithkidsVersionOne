@@ -15,6 +15,12 @@ import University from './components/University/University';
 import StrollerBusTram from './components/StrollerBusTram/StrollerBusTram';
 import BikeBus from './components/BikeBus/BikeBus';
 import Train from './components/Train/Train';
+import PublicTransport from './components/PublicTransport/PublicTransport';
+import KinderGarten from './components/KinderGarten/KinderGarten';
+import Highschool from './components/Highschool/Highschool';
+import FirstAid from './components/FirstAid/FirstAid';
+import Emergency from './components/Emergency/Emergency';
+import ElementarySchool from './components/ElementarySchool/ElementarySchool';
 
 import './style.css';
 
@@ -37,6 +43,12 @@ const App = () => (
           <Route path="/healthCare/findAdoctor">
             <SearchDoctor />
           </Route>
+          <Route path="/healthCare/firstAid">
+            <FirstAid />
+          </Route>
+          <Route path="/healthCare/emergency">
+            <Emergency />
+          </Route>
           <Route exact path="/travelling">
             <Travelling />
           </Route>
@@ -49,11 +61,23 @@ const App = () => (
           <Route path="/travelling/bikeBus">
             <BikeBus />
           </Route>
+          <Route path="/travelling/children">
+            <PublicTransport />
+          </Route>
           <Route exact path="/education">
             <Education />
           </Route>
           <Route path="/education/university">
             <University />
+          </Route>
+          <Route path="/education/kindergarten">
+            <KinderGarten />
+          </Route>
+          <Route path="/education/highschool">
+            <Highschool />
+          </Route>
+          <Route path="/education/primaryschool">
+            <ElementarySchool />
           </Route>
           <Route exact path="/daysOut">
             <Search />

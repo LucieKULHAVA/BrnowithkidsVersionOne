@@ -17,6 +17,6 @@ export const EducationPageMenu = [
   {
     src: '/assets/img/educationImg/university.png',
     pageName: 'Universities in Brno',
-    url: '/education/univerity',
+    url: '/education/university',
   },
 ];
