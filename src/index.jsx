@@ -12,7 +12,8 @@ import Vaccination from './components/Vaccination/Vaccination';
 import Search from './components/Search/index';
 import SearchDoctor from './components/SearchDoctors/index';
 import University from './components/University/University';
-
+import StrollerBusTram from './components/StrollerBusTram/StrollerBusTram';
+import BikeBus from './components/BikeBus/BikeBus';
 import './style.css';
 
 const App = () => (
@@ -34,19 +35,25 @@ const App = () => (
           <Route path="/healthCare/findAdoctor">
             <SearchDoctor />
           </Route>
-          <Route path="/travelling">
+          <Route exact path="/travelling">
             <Travelling />
           </Route>
-          <Route path="/education">
+          <Route path="/travelling/strollerBus">
+            <StrollerBusTram />
+          </Route>
+          <Route path="/travelling/bikeBus">
+            <BikeBus />
+          </Route>
+          <Route exact path="/education">
             <Education />
           </Route>
           <Route path="/education/university">
             <University />
           </Route>
-          <Route path="/daysOut">
+          <Route exact path="/daysOut">
             <Search />
           </Route>
-          <Route path="/parenthood">
+          <Route exact path="/parenthood">
             <Parenthood />
           </Route>
         </Switch>

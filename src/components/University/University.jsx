@@ -5,7 +5,7 @@ const University = () => {
   return (
     <>
       <div className="main__desc">
-        <div className="cover__photo"></div>
+        <div className="cover__photo--uni"></div>
         <h2>Universities</h2>
         <p>
           Are you lost in all the information about your stay abroad at Masaryk
