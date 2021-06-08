@@ -11,6 +11,7 @@ import Parenthood from './components/Parenthood/Parenthood';
 import Vaccination from './components/Vaccination/Vaccination';
 import Search from './components/Search/index';
 import SearchDoctor from './components/SearchDoctors/index';
+import University from './components/University/University';
 
 import './style.css';
 
@@ -38,6 +39,9 @@ const App = () => (
           </Route>
           <Route path="/education">
             <Education />
+          </Route>
+          <Route path="/education/university">
+            <University />
           </Route>
           <Route path="/daysOut">
             <Search />

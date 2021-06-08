@@ -10,6 +10,7 @@ const Education = () => (
         key={item.pageName}
         src={item.src}
         pageName={item.pageName}
+        url={item.url}
       />
     ))}
   </div>
