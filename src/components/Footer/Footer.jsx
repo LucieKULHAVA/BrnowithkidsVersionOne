@@ -20,11 +20,11 @@ const Footer = () => (
           />
         </div>
         <div className="contact">
-          <p>Provozovatel:</p>
+          <p className="owner">Provozovatel:</p>
           <div className="address">
             <p>Vicinis, z.s.</p>
             <p>Liliová 12, 612 00 Brno</p>
-            <span>info@vicinis.cz</span>
+            <p>info@vicinis.cz</p>
           </div>
         </div>
       </div>

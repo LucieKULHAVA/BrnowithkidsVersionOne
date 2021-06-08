@@ -2,6 +2,7 @@
 
 .page__menu--item img {
   width: 100%;
+  padding-top: 5rem;
 }
 
 .pruh .pic__title {
@@ -23,6 +24,14 @@
 
   .page__menu--item {
     flex: 1 1 50%;
+  }
+
+  .page__menu--item:nth-child(2n) {
+    padding-left: 2rem;
+  }
+
+  .page__menu--item:nth-child(odd) {
+    padding-right: 2rem;
   }
 
   .page__menu--item img {

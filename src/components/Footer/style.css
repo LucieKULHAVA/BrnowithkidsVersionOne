@@ -1,15 +1,16 @@
 /* Patička */
 
 footer {
-  background-color: rgb(0, 61, 91);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   text-align: center;
+  flex: 0 0 auto;
 }
 
 footer h3 {
-  margin: 0;
+  margin: 10px 0 0 0;
   text-align: left;
-  padding: 1rem 2rem;
+  padding: 0 2rem 1rem;
 }
 
 .footer__box {
@@ -27,22 +28,27 @@ footer h3 {
 
 .logo {
   width: 100px;
+  padding-right: 30px;
+  padding-top: 25px;
 }
 
 .contacts {
   display: flex;
   line-height: 0.5;
-  padding: 1rem;
+  padding-right: 2rem;
   text-align: left;
   justify-content: space-between;
 }
 
+.address {
+  padding-bottom: 1rem;
+}
 .address p {
-  font-size: 10px;
+  font-size: 14px;
 }
 
-.footer__copyright {
+.footer__copyright p {
   font-size: 14px;
-  padding: 5px;
+  padding: 0 32px;
   margin: 0;
 }

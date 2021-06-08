@@ -14,6 +14,8 @@ import SearchDoctor from './components/SearchDoctors/index';
 import University from './components/University/University';
 import StrollerBusTram from './components/StrollerBusTram/StrollerBusTram';
 import BikeBus from './components/BikeBus/BikeBus';
+import Train from './components/Train/Train';
+
 import './style.css';
 
 const App = () => (
@@ -40,6 +42,9 @@ const App = () => (
           </Route>
           <Route path="/travelling/strollerBus">
             <StrollerBusTram />
+          </Route>
+          <Route path="/travelling/strollerTrain">
+            <Train />
           </Route>
           <Route path="/travelling/bikeBus">
             <BikeBus />
