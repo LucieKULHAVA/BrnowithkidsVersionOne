@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 const TravellingMenu = ({ url, src, pageName }) => {
   return (
     <div className="page__menu--item">
-      <a href={url}>
+      <Link to={url}>
         <img src={src} alt={pageName} />
-      </a>
+      </Link>
       <div className="pruh">
         <p className="pic__title">{pageName}</p>
       </div>

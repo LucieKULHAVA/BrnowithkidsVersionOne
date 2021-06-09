@@ -8,18 +8,67 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-
-.doctorfinder {
+/* .doctorfinder {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
+} */
+
+.doctorfinder h2 {
+  color: rgb(0, 121, 140);
+  text-align: center;
+  padding: 0;
 }
 
-.doctorsList{
+.doctorfinder h2:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.doctorfinder p {
+  align-items: left;
+}
+
+.doctorsList {
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   margin-top: 4rem;
-
 }
 
+.main__desc {
+  position: relative;
+  z-index: 1;
+}
+
+.main__desc .cover__photo {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  filter: opacity(25%);
+  background: url(../../assets/img/healthCareImg/doctor.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 800px;
+}
+
+.table__scheme h3 {
+  color: rgb(237, 174, 73);
+  padding: 30px;
+  text-align: center;
+}
+
+input {
+  margin: 0;
+}
+
+@media screen and (min-width: 1300px) {
+  .main__desc .cover__photo {
+    height: 600px;
+  }
+}
