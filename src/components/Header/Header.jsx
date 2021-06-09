@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import HeaderMenu from './HeaderMenu';
+import { Link } from 'react-router-dom';
 
 import './style.css';
 
@@ -21,9 +22,9 @@ const Header = (props) => {
   return (
     <header className={burgerExpanded ? 'burger-expanded' : 'burger-collapsed'}>
       <h1>
-        <a title="Brno with kids" href="/">
+        <Link title="Brno with kids" to="/">
           Brno with Kids
-        </a>
+        </Link>
       </h1>
 
       <span

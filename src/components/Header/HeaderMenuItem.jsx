@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './style.css';
 
@@ -9,9 +10,9 @@ const HeaderMenuItem = (props) => {
 
   return (
     <li key={itemLabel}>
-      <a className={className} href={itemUrl}>
+      <Link className={className} to={itemUrl}>
         {itemLabel}
-      </a>
+      </Link>
     </li>
   );
 };
