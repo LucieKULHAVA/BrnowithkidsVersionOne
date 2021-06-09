@@ -13,29 +13,33 @@ const FirstAid = () => {
           give a lot to know how to help a child who is choking, burned, dealing
           with a nosebleed or loss of consciousness. However, in such cases, the
           most valuable commodity is time, so it's worth knowing how to behave
-          and how to effectively perform first aid. While caring for small
-          children, various types of accidents can happen, sometimes harmless,
-          requiring only our intervention, sometimes very serious, when
-          emergency assistance is needed. That is why it is so important not to
-          spend time searching for knowledge online but rather to be able to
-          help someone in need quickly and efficiently. In emergency situations,
-          knowing what to do can make a huge difference when waiting for the
-          emergency services to arrive. When giving premedical help to a child,
-          the set of actions to be performed varies, depending on their age:
-          <div className="firstAid__list">
-            <ul>
-              <li>
-                <span>infant</span> - under 1 year old
-              </li>
-              <li>
-                <span>child</span> - over 1 year of age until reaching puberty
-              </li>
-              <li>
-                <span>adult</span> - children who have already reached puberty
-              </li>
-            </ul>
-          </div>
+          and how to effectively perform first aid.
         </p>
+        <p>
+          While caring for small children, various types of accidents can
+          happen, sometimes harmless, requiring only our intervention, sometimes
+          very serious, when emergency assistance is needed. That is why it is
+          so important not to spend time searching for knowledge online but
+          rather to be able to help someone in need quickly and efficiently. In
+          emergency situations, knowing what to do can make a huge difference
+          when waiting for the emergency services to arrive. When giving
+          premedical help to a child, the set of actions to be performed varies,
+          depending on their age:
+        </p>
+        <div className="firstAid__list">
+          <ul>
+            <li>
+              <span>infant</span> - under 1 year old
+            </li>
+            <li>
+              <span>child</span> - over 1 year of age until reaching puberty
+            </li>
+            <li>
+              <span>adult</span> - children who have already reached puberty
+            </li>
+          </ul>
+        </div>
+
         <h3>Choking</h3>
 
         <p>

@@ -6,9 +6,12 @@ const Doctor = ({ id, name, specialisation, languagues, link }) => {
     <>
       <div className="doctor-description">
         <h3 className="doctor-name">{name}</h3>
-        <p className="doctor-text">{languagues}</p>
         <p className="doctor-text">{specialisation}</p>
-        <p className="doctor-text">{link}</p>
+        <p className="doctor-text">{languagues}</p>
+
+        <p>
+          <a href={link}>website</a>
+        </p>
       </div>
     </>
   );

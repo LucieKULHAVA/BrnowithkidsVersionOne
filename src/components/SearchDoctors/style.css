@@ -88,8 +88,8 @@ label {
 .doctor-description {
   border: 1px solid lightgrey;
   border-radius: 5px;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 500px;
+  max-height: 500px;
   line-height: 0.5;
   margin-top: 2rem;
 }
@@ -98,21 +98,6 @@ label {
   text-align: center;
   font-size: 18px;
 }
-
-/* .doctor-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 2rem;
-} */
-
-/* .doctorList {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: 20px;
-} */
 
 @media screen and (min-width: 1300px) {
   .main__desc .cover__photo {
