@@ -5,7 +5,7 @@ const FirstAid = () => {
   return (
     <>
       <div className="main__desc">
-        <div className="cover__photo--bike"></div>
+        <div className="cover__photo--firstAid"></div>
         <h2>First Aid for children</h2>
         <p>
           Learning basic first aid skills which might save a human life is
@@ -22,9 +22,19 @@ const FirstAid = () => {
           knowing what to do can make a huge difference when waiting for the
           emergency services to arrive. When giving premedical help to a child,
           the set of actions to be performed varies, depending on their age:
-          infant - under 1 year old, • child - over 1 year of age until reaching
-          puberty, adult - children who have already reached puberty, and
-          adults.
+          <div className="firstAid__list">
+            <ul>
+              <li>
+                <span>infant</span> - under 1 year old
+              </li>
+              <li>
+                <span>child</span> - over 1 year of age until reaching puberty
+              </li>
+              <li>
+                <span>adult</span> - children who have already reached puberty
+              </li>
+            </ul>
+          </div>
         </p>
         <h3>Choking</h3>
 

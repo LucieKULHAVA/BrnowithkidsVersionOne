@@ -5,7 +5,7 @@
   z-index: 1;
 }
 
-.main__desc .cover__photo {
+.main__desc .cover__photo--vaccination {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -22,14 +22,38 @@
   height: 1160px;
 }
 
-.table__scheme h3 {
-  color: rgb(237, 174, 73);
+.table__scheme h2 {
+  color: rgb(0, 121, 140);
   padding: 30px;
   text-align: center;
 }
 
+.table__scheme h2:after {
+  display: none;
+}
+
+thead {
+  color: rgb(237, 174, 73);
+  font-size: 18px;
+}
+th,
+td {
+  border-bottom: 1px solid lightgray;
+  text-align: left;
+  font-size: 18px;
+}
+
+tr {
+  border-right: 1px solid lightgray;
+}
+
+table {
+  border-spacing: 0;
+  margin: 3rem;
+}
+
 @media screen and (min-width: 1300px) {
-  .main__desc .cover__photo {
+  .main__desc .cover__photo--vaccination {
     height: 800px;
   }
 }

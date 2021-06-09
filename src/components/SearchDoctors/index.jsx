@@ -43,7 +43,15 @@ const SearchDoctor = () => {
         <div className="cover__photo"></div>
         <div className="doctorfinder">
           <h2>Find your doctor</h2>
-          <p>You can find a doctor below based on your preferred language:</p>
+          <div id="doctor_desc">
+            <p>
+              We are aware how difficult it might be to find a doctor speaking
+              your language. We selected for you a list of doctors speaking
+              different languages. We hope you will be able to find the right
+              for your.
+            </p>
+            <p>You can find a doctor below based on your preferred language:</p>
+          </div>
         </div>
         <div className="selection">
           <div className="selected__item">
@@ -54,7 +62,7 @@ const SearchDoctor = () => {
               id="language1"
               value="russian"
             />
-            <label htmlFor="language1">Russian</label>
+            <label htmlFor="language1">English</label>
           </div>
           <br></br>
           <div className="selected__item">
@@ -65,7 +73,7 @@ const SearchDoctor = () => {
               id="language2"
               value="english"
             />
-            <label htmlFor="language2">English</label>
+            <label htmlFor="language2">Russian</label>
           </div>
           <br></br>
           <div className="selected__item">
@@ -80,32 +88,6 @@ const SearchDoctor = () => {
           </div>
           <br></br>
         </div>
-        {/* <p>Specialisation:</p>
-        <input
-          type="checkbox"
-          name="specialisation1"
-          id="specialisation1"
-          value="pediatric"
-        />
-        <label htmlFor="specialisation1"> Pediatric</label>
-        <br></br>
-        <input
-          type="checkbox"
-          name="specialisation2"
-          id="specialisation2"
-          value="dentist"
-        />
-        <label htmlFor="specialisation2"> Dentist</label>
-        <br></br>
-        <input
-          type="checkbox"
-          name="specialisation3"
-          id="specialisation3"
-          value="neurologist"
-        />
-        <label htmlFor="specialisation3"> Neurologist</label>
-        <br></br> */}
-
         <div className="doctorsList">
           {results.map((doctor) => (
             <Doctor

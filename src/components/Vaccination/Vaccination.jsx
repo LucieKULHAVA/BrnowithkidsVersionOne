@@ -10,7 +10,7 @@ const Vaccination = () => {
   return (
     <>
       <div className="main__desc">
-        <div className="cover__photo"></div>
+        <div className="cover__photo--vaccination"></div>
         <h2>Vaccination in the Czech Republic</h2>
         <p>
           Regular, special and emergency vaccinations against infectious
@@ -54,13 +54,13 @@ const Vaccination = () => {
       </div>
       <section className="table">
         <div className="table__scheme">
-          <h3>Legitimate vaccination</h3>
+          <h2>Legitimate vaccination</h2>
           <table>
             <VaccinationTable data={VaccinationTable1} />
           </table>
         </div>
         <div className="table__scheme">
-          <h3>Recommended vaccination</h3>
+          <h2>Recommended vaccination</h2>
           <table>
             <VaccinationTable data={VaccinationTable2} />
           </table>

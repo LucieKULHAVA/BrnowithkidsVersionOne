@@ -18,9 +18,10 @@ html {
   display: none;
 }
 
-.doctorfinder p {
+#doctor_desc {
   align-items: left;
-  font-size: 22px;
+  font-size: 20px;
+  padding: 0 40px;
 }
 
 .doctorsList {
@@ -60,6 +61,7 @@ html {
 .selection {
   display: flex;
   flex-direction: column;
+  height: 300px;
 }
 
 .selected__item {
@@ -77,8 +79,44 @@ label {
   color: rgb(237, 174, 73);
   font-weight: bold;
 }
+
+.doctor-description {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  line-height: 1;
+}
+
+.doctor-description {
+  flex: 1 1 100%;
+}
+
+.doctor-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+}
+
+.doctorList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
 @media screen and (min-width: 1300px) {
   .main__desc .cover__photo {
     height: 600px;
+  }
+
+  .doctorsList {
+    display: flex;
+  }
+
+  .doctor-description {
+    flex: 0 0 calc(100% / 3 - 10px);
   }
 }

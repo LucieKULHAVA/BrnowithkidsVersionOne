@@ -4,7 +4,6 @@ export const facilities = [
     name: 'Ahmed Amerovic',
     specialisation: 'pediatrician',
     languagues: 'serbian, czech',
-    cover: 'rocket.svg',
     link: 'url',
   },
   {
@@ -12,7 +11,6 @@ export const facilities = [
     name: 'Doktor Mengele',
     specialisation: 'opthalmologist',
     languagues: 'russian, english',
-    cover: 'rocket.svg',
     link: 'www.google.com',
   },
   {
@@ -20,7 +18,6 @@ export const facilities = [
     name: 'Doktor Mengele',
     specialisation: 'opthalmologist',
     languagues: 'german, czech',
-    cover: 'rocket.svg',
     link: 'www.google.com',
   },
   {
@@ -28,7 +25,6 @@ export const facilities = [
     name: 'Doktor Mengele',
     specialisation: 'opthalmologist',
     languagues: 'russian, english, czech, arabic',
-    cover: 'rocket.svg',
     link: 'www.google.com',
   },
   {
@@ -36,7 +32,6 @@ export const facilities = [
     name: 'Doktor Mengele',
     specialisation: 'opthalmologist',
     languagues: 'english, czech',
-    cover: 'rocket.svg',
     link: 'www.google.com',
   },
   {
@@ -44,7 +39,6 @@ export const facilities = [
     name: 'Doktor Mengele',
     specialisation: 'opthalmologist',
     languagues: 'german, czech',
-    cover: 'rocket.svg',
     link: 'www.google.com',
   },
   {
@@ -52,7 +46,6 @@ export const facilities = [
     name: 'Doktor Mengele',
     specialisation: 'opthalmologist',
     languagues: 'german, czech',
-    cover: 'rocket.svg',
     link: 'www.google.com',
   },
   {
@@ -60,7 +53,6 @@ export const facilities = [
     name: 'Doktor Mengele',
     specialisation: 'opthalmologist',
     languagues: 'german, czech',
-    cover: 'rocket.svg',
     link: 'www.google.com',
   },
 ];
