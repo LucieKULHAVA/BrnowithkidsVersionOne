@@ -48,9 +48,12 @@ const SearchDoctor = () => {
               We are aware how difficult it might be to find a doctor speaking
               your language. We selected for you a list of doctors speaking
               different languages. We hope you will be able to find the right
-              for your.
+              match for your.
             </p>
-            <p>You can find a doctor below based on your preferred language:</p>
+            <p>
+              You can <span>find a doctor</span> below based on{' '}
+              <span>your preferred language</span>:
+            </p>
           </div>
         </div>
         <div className="selection">
@@ -87,6 +90,60 @@ const SearchDoctor = () => {
             <label htmlFor="language3">Arabic</label>
           </div>
           <br></br>
+          <div className="selected__item">
+            <input
+              onChange={handleChangeInput}
+              type="checkbox"
+              name="language4"
+              id="language4"
+              value="spanish"
+            />
+            <label htmlFor="language4">Spanish</label>
+          </div>
+          <br></br>
+          <div className="selected__item">
+            <input
+              onChange={handleChangeInput}
+              type="checkbox"
+              name="language5"
+              id="language5"
+              value="german"
+            />
+            <label htmlFor="language5">German</label>
+          </div>
+          <br></br>
+          <div className="selected__item">
+            <input
+              onChange={handleChangeInput}
+              type="checkbox"
+              name="language6"
+              id="language6"
+              value="french"
+            />
+            <label htmlFor="language6">French</label>
+          </div>
+          <br></br>
+          <div className="selected__item">
+            <input
+              onChange={handleChangeInput}
+              type="checkbox"
+              name="language7"
+              id="language7"
+              value="polish"
+            />
+            <label htmlFor="language7">Polish</label>
+          </div>
+          <br></br>
+          <div className="selected__item">
+            <input
+              onChange={handleChangeInput}
+              type="checkbox"
+              name="language8"
+              id="language8"
+              value="serbian"
+            />
+            <label htmlFor="language8">Serbian</label>
+          </div>
         </div>
         <div className="doctorsList">
           {results.map((doctor) => (
