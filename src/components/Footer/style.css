@@ -16,6 +16,7 @@ footer h3 {
 .footer__box {
   display: flex;
   justify-content: space-between;
+  height: 7rem;
 }
 
 .footer__contacts p {
