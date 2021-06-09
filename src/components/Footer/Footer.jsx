@@ -13,11 +13,7 @@ const Footer = () => (
       </div>
       <div className="contacts">
         <div className="logo-pic">
-          <img
-            className="logo"
-            src="/assets/icons/logovicinis.png"
-            alt="logo"
-          />
+          <img className="logo" src="/assets/icons/logo1.jpg" alt="logo" />
         </div>
         <div className="contact">
           <p className="owner">Provozovatel:</p>
