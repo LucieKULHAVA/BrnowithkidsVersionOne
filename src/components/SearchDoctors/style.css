@@ -91,12 +91,14 @@ label {
   max-width: 500px;
   max-height: 500px;
   line-height: 0.5;
+  text-align: left;
   margin-top: 2rem;
 }
 
 .doctor-description h3 {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
+  padding-left: 30px;
 }
 
 @media screen and (min-width: 1300px) {

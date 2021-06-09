@@ -34,15 +34,10 @@ body {
 .container {
   background-color: white;
   flex: 1 0 auto;
-  /* padding-bottom: 7rem; */
 }
 .container h2 {
   padding: 30px;
   margin: 0;
-}
-
-.container p {
-  padding: 0 30px;
 }
 
 h2 {
