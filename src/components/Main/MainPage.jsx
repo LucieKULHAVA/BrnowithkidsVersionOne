@@ -49,7 +49,7 @@ const MainPage = () => (
       <p>Looking forward to seeing you!</p>
       <p>The team of organisers</p>
     </section>
-    <section className="team intro">
+    <section className="team__intro">
       <h2>Meet our team</h2>
       <div className="team">
         {Profil.map((profile) => (

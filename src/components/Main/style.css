@@ -54,6 +54,15 @@ h2::after {
   border-radius: 50%;
 }
 
+.team__intro h2:after {
+  display: none;
+}
+
+.team__intro h2 {
+  text-align: center;
+  color: rgb(0, 121, 140);
+}
+
 .profil {
   border: 1px solid lightgrey;
   border-radius: 5px;

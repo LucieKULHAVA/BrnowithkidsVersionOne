@@ -45,36 +45,41 @@ const SearchDoctor = () => {
           <h2>Find your doctor</h2>
           <p>You can find a doctor below based on your preferred language:</p>
         </div>
-        <hr />
-
-        <input
-          onChange={handleChangeInput}
-          type="checkbox"
-          name="language1"
-          id="language1"
-          value="russian"
-        />
-        <label htmlFor="language1">Russian</label>
-        <br></br>
-        <input
-          onChange={handleChangeInput}
-          type="checkbox"
-          name="language2"
-          id="language2"
-          value="english"
-        />
-        <label htmlFor="language2">English</label>
-        <br></br>
-        <input
-          onChange={handleChangeInput}
-          type="checkbox"
-          name="language3"
-          id="language3"
-          value="arabic"
-        />
-        <label htmlFor="language3">Arabic</label>
-        <br></br>
-        <hr />
+        <div className="selection">
+          <div className="selected__item">
+            <input
+              onChange={handleChangeInput}
+              type="checkbox"
+              name="language1"
+              id="language1"
+              value="russian"
+            />
+            <label htmlFor="language1">Russian</label>
+          </div>
+          <br></br>
+          <div className="selected__item">
+            <input
+              onChange={handleChangeInput}
+              type="checkbox"
+              name="language2"
+              id="language2"
+              value="english"
+            />
+            <label htmlFor="language2">English</label>
+          </div>
+          <br></br>
+          <div className="selected__item">
+            <input
+              onChange={handleChangeInput}
+              type="checkbox"
+              name="language3"
+              id="language3"
+              value="arabic"
+            />
+            <label htmlFor="language3">Arabic</label>
+          </div>
+          <br></br>
+        </div>
         {/* <p>Specialisation:</p>
         <input
           type="checkbox"

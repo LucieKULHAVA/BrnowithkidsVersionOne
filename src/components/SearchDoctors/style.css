@@ -8,11 +8,6 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* .doctorfinder {
-  display: flex;
-  flex-direction: column;
-} */
-
 .doctorfinder h2 {
   color: rgb(0, 121, 140);
   text-align: center;
@@ -25,6 +20,7 @@ html {
 
 .doctorfinder p {
   align-items: left;
+  font-size: 22px;
 }
 
 .doctorsList {
@@ -45,7 +41,7 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
-  filter: opacity(25%);
+  filter: opacity(15%);
   background: url(../../assets/img/healthCareImg/doctor.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -61,10 +57,26 @@ html {
   text-align: center;
 }
 
-input {
-  margin: 0;
+.selection {
+  display: flex;
+  flex-direction: column;
 }
 
+.selected__item {
+  flex: 0 0 auto;
+}
+#language1,
+#language2,
+#language3 {
+  margin-left: 4rem;
+  padding: 1rem 1rem;
+  max-width: 20px;
+}
+
+label {
+  color: rgb(237, 174, 73);
+  font-weight: bold;
+}
 @media screen and (min-width: 1300px) {
   .main__desc .cover__photo {
     height: 600px;

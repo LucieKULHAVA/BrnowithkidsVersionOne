@@ -1,6 +1,12 @@
 /* intuitivnejsi box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 html {
   box-sizing: border-box;
 }
@@ -19,8 +25,6 @@ body {
   font-size: 18px;
   line-height: 1.5;
 }
-
-
 
 h2 {
   color: rgb(237, 174, 73);
@@ -41,9 +45,6 @@ h2::after {
   margin-left: -30px;
 }
 
-
-
-
 .vylety > h2 {
   color: white;
 }
@@ -52,12 +53,13 @@ h2::after {
   max-width: 800px;
   margin: 30px auto;
   padding: 15px;
-  background-color:rgb(237, 174, 73);
+  background-color: rgb(237, 174, 73);
   border-radius: 4px;
   display: flex;
 }
 
-input, button {
+input,
+button {
   padding: 10px 15px;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -77,16 +79,15 @@ button {
   cursor: pointer;
 }
 
-input:focus,
+/* input:focus,
 button:focus,
 button:hover {
   box-shadow: 0 0 15px goldenrod;
-}
+} */
 
 button:active {
   background-color: rgb(237, 174, 73);
 }
-
 
 .vylety {
   max-width: 800px;
@@ -97,7 +98,7 @@ button:active {
   display: flex;
   align-items: flex-start;
   padding: 15px;
-  background-color: rgba(255, 255, 255, 0.90);
+  background-color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
   border-radius: 4px;
 }
