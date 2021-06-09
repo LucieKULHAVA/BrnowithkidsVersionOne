@@ -5,6 +5,18 @@
   z-index: 1;
 }
 
+.main__desc p {
+  padding: 0 60px;
+}
+
+.firstAid__list {
+  padding: 0 20px;
+}
+
+.firstAid__tips h3 {
+  padding: 20px 60px;
+  color: rgb(237, 174, 73);
+}
 .main__desc .cover__photo--firstAid {
   position: absolute;
   z-index: -1;
@@ -28,6 +40,6 @@
 
 @media screen and (min-width: 1300px) {
   .main__desc .cover__photo--firstAid {
-    height: 500px;
+    height: 560px;
   }
 }
