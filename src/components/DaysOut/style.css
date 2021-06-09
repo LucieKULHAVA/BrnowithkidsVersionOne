@@ -1,54 +1,15 @@
-/* intuitivnejsi box model */
-html {
-  box-sizing: border-box;
-}
-*,
-::after,
-::before {
-  box-sizing: inherit;
-}
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*.after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f3f9fa;
-  color: rgb(24, 78, 119);
-  font-family: 'PT Sans', sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-h2 {
-  color: rgb(237, 174, 73);
-}
-
-/* cover picture */
-.main__pic {
-  width: 100%;
-}
-
-h2::after {
-  content: '';
-  display: block;
-  width: 80px;
-  height: 4px;
-  background-color: rgb(0, 121, 140);
-  margin-top: 20px;
-  margin-left: -30px;
-}
-
 .vylety > h2 {
   color: white;
 }
 
+.daysOut h2 {
+  color: rgb(0, 121, 140);
+  text-align: center;
+}
+
+.daysOut h2:after {
+  display: none;
+}
 .hledani {
   max-width: 800px;
   margin: 30px auto;
@@ -78,12 +39,6 @@ button {
   color: rgb(237, 174, 73);
   cursor: pointer;
 }
-
-/* input:focus,
-button:focus,
-button:hover {
-  box-shadow: 0 0 15px goldenrod;
-} */
 
 button:active {
   background-color: rgb(237, 174, 73);

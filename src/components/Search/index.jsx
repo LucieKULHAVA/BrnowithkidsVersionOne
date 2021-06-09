@@ -32,7 +32,9 @@ const Search = () => {
 
   return (
     <>
-      <h2 className="Title">My Favorite Destination</h2>
+      <div className="daysOut">
+        <h2 className="Title">My Favorite Destination</h2>
+      </div>
       <SearchBar
         placeholder="Enter the name of your favorite destination"
         onChange={(e) => searchNazev(e.target.value)}
