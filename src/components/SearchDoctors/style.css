@@ -20,9 +20,7 @@ html {
 }
 
 .doctorfinder h2:after {
-  clear: both;
-  content: '';
-  display: block;
+  display: none;
 }
 
 .doctorfinder p {
