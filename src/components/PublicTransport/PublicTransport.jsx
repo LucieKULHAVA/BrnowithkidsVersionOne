@@ -5,7 +5,7 @@ const PublicTransport = () => {
   return (
     <>
       <div className="main__desc">
-        <div className="cover__photo--bike"></div>
+        <div className="cover__photo--children"></div>
         <h2>Travelling with children</h2>
         <p>
           Having kids forces us to make changes to our tried and tested

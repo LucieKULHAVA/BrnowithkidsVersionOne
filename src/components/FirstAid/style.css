@@ -1,20 +1,27 @@
 /*  First Aid styly */
 
+.firstAid__wrap p {
+  padding: 0 60px;
+}
 .main__desc {
   position: relative;
   z-index: 1;
 }
 
 /* .main__desc p {
-  padding: 0 60px;
+  padding: 0 30px;
 } */
 
 .firstAid__list {
-  padding: 0 20px;
+  padding: 2rem;
+}
+
+.sipka img {
+  width: 25px;
 }
 
 .firstAid__tips h3 {
-  padding: 20px 30px;
+  padding: 10px 60px;
   color: rgb(237, 174, 73);
 }
 .main__desc .cover__photo--firstAid {
@@ -36,6 +43,28 @@
 
 .firstAid__list ul li span {
   font-weight: bold;
+  padding-left: 1rem;
+}
+
+.firstAid__tips span {
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.firstAid__tips ol li {
+  padding-right: 60px;
+}
+
+.firstAid__tips p {
+  padding: 0 60px;
+}
+
+.firstAid__tips ul li {
+  padding: 0 40px;
+}
+
+.firstAid__tips ul li img {
+  margin-right: 1rem;
 }
 
 @media screen and (min-width: 1300px) {

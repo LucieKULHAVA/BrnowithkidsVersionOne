@@ -3,6 +3,7 @@
 .emergency__pic {
   width: 100%;
   height: 800px;
+  opacity: 0.8;
 }
 
 .main__desc--emergency ul li span {
