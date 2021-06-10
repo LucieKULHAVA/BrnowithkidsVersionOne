@@ -1,29 +1,40 @@
 /* Highschool styly */
 
-.main__desc {
-  position: relative;
-  z-index: 1;
-}
-
-.main__desc .cover__photo--bike {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  filter: opacity(25%);
-  background: url(../../assets/img/educationImg/highschool.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-size: cover;
-  background-position: center center;
+.highschool__pic {
   width: 100%;
-  height: 440px;
+  height: 800px;
+  opacity: 0.9;
 }
 
-@media screen and (min-width: 1300px) {
-  .main__desc .cover__photo--bike {
-    height: 442px;
-  }
+.highschool p {
+  padding: 0 60px;
+}
+
+.highschool h3 {
+  padding: 0 60px;
+}
+
+.highschool h3 span {
+  color: rgb(237, 174, 73);
+  font-weight: bold;
+}
+
+.highschool p span {
+  color: rgb(237, 174, 73);
+  font-weight: bold;
+}
+
+.highschoolList p span {
+  color: rgb(24, 78, 119);
+}
+.sipka img {
+  width: 25px;
+}
+
+.highshoolList ul li {
+  padding-right: 2rem;
+}
+.highschool ul li img {
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
