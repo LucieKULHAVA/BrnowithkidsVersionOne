@@ -1,29 +1,37 @@
 /* Elementary school style */
 
-.main__desc {
-  position: relative;
-  z-index: 1;
-}
-
-.main__desc .cover__photo--bike {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  filter: opacity(25%);
-  background: url(../../assets/img/educationImg/primaryschool.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-size: cover;
-  background-position: center center;
+.elementary__pic {
   width: 100%;
-  height: 440px;
+  height: 700px;
+  /* opacity: 0.9; */
 }
 
-@media screen and (min-width: 1300px) {
-  .main__desc .cover__photo--bike {
-    height: 442px;
-  }
+.elementarySchool p {
+  padding: 0 60px;
+}
+
+.elementarySchool h3 {
+  padding: 0 60px;
+}
+
+.elementarySchool h3 span {
+  color: rgb(237, 174, 73);
+  font-weight: bold;
+}
+
+.elementarySchool p span {
+  color: rgb(237, 174, 73);
+  font-weight: bold;
+}
+
+.kinderGartenPublic p span {
+  color: rgb(24, 78, 119);
+}
+.sipka img {
+  width: 25px;
+}
+
+.kindergartenList ul li img {
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
