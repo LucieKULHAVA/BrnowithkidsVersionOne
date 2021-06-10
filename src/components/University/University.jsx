@@ -13,7 +13,7 @@ const University = () => {
           system, the choice of courses and filling in the complicated forms?
         </p>
 
-        <h2>Masaryk University</h2>
+        <h3>Masaryk University</h3>
         <p>
           Are you lost in all the information about your stay abroad at Masaryk
           University in the Czech Republic? Are you confused by the university
@@ -24,8 +24,7 @@ const University = () => {
             More details
           </a>
         </p>
-
-        <h2>Mendel University</h2>
+        <h3>Mendel University</h3>
         <p>
           Are you lost in all the information about your stay abroad at Masaryk
           University in the Czech Republic? Are you confused by the university
@@ -35,7 +34,7 @@ const University = () => {
           <a href="https://mendelu.cz/en/">More details</a>
         </p>
 
-        <h2>Brno University of Technology</h2>
+        <h3>Brno University of Technology</h3>
         <p>
           Are you lost in all the information about your stay abroad at Masaryk
           University in the Czech Republic? Are you confused by the university
@@ -45,13 +44,13 @@ const University = () => {
           <a href="https://www.vutbr.cz/en/?aid_redir=1">More details</a>
         </p>
 
-        <h2>University of Veterinary Sciences Brno</h2>
+        <h3>University of Veterinary Sciences Brno</h3>
         <p>Palackého třída 1/3, 612 42 Brno</p>
         <p>
           <a href="https://www.vfu.cz/en/">More details</a>
         </p>
 
-        <h2>The Janáček Academy of Music and Performing Arts Brno (JAMU)</h2>
+        <h3>The Janáček Academy of Music and Performing Arts Brno (JAMU)</h3>
         <p>Beethovenova 2, 602 00 Brno</p>
         <p>
           <a href="https://www.jamu.cz/international/international-office/about-jamu/">
