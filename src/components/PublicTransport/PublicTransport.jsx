@@ -8,7 +8,7 @@ const PublicTransport = () => {
         <img
           className="children__pic"
           src="/assets/img/travellingImg/childrenPublicTransport.png"
-          alt="sanitka"
+          alt="cestování s dětmi v MHD"
         />
       </section>
       <div className="publicTransport">
