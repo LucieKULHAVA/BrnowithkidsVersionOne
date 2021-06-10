@@ -1,29 +1,19 @@
 /* Train styly */
 
-.main__desc {
-  position: relative;
-  z-index: 1;
-}
-
-.main__desc .cover__photo--bike {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  filter: opacity(25%);
-  background: url(../../assets/img/travellingImg/strollerTrain.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-size: cover;
-  background-position: center center;
+.train__pic {
   width: 100%;
-  height: 440px;
+  height: 800px;
+  opacity: 0.9;
 }
 
-@media screen and (min-width: 1300px) {
-  .main__desc .cover__photo--bike {
-    height: 442px;
-  }
+.strollerTrain p {
+  padding: 0 60px;
+}
+
+.strollerTrain h3 {
+  padding: 0 60px;
+}
+.strollerTrain p span {
+  color: rgb(237, 174, 73);
+  font-weight: bold;
 }
