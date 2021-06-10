@@ -14,8 +14,6 @@ const Header = (props) => {
   };
 
   const closeBurgerNavigation = (e) => {
-    e.preventDefault();
-
     setBurgerExpandedState(false);
   };
 
@@ -36,7 +34,7 @@ const Header = (props) => {
         <i className="fas fa-bars"></i>
       </span>
       <nav className="static-navigation">
-        <HeaderMenu />
+        <HeaderMenu closeBurgerNavigation={closeBurgerNavigation} />
       </nav>
 
       <nav className="burger-navigation">
@@ -48,7 +46,7 @@ const Header = (props) => {
         >
           <i className="fas fa-times"></i>
         </span>
-        <HeaderMenu />
+        <HeaderMenu closeBurgerNavigation={closeBurgerNavigation} />
       </nav>
     </header>
   );

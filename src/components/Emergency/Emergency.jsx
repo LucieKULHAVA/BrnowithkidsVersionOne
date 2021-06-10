@@ -24,7 +24,7 @@ const Emergency = () => {
             <span>150</span> - fire brigade
           </li>
           <li>
-            <span>158</span> – police
+            <span>158</span> - police
           </li>
         </ul>
       </section>

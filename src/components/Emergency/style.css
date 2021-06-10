@@ -8,4 +8,10 @@
 
 .main__desc--emergency ul li span {
   font-weight: bold;
+  font-size: 22px;
+}
+
+.main__desc--emergency ul li {
+  font-size: 22px;
+  list-style: none;
 }
