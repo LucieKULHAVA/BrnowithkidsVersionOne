@@ -4,16 +4,30 @@ import './style.css';
 const Emergency = () => {
   return (
     <>
-      <div className="main__desc">
-        <div className="cover__photo--bike"></div>
+      <section className="main__picture">
+        <img
+          className="main__pic"
+          src="/assets/img/healthCareImg/sanitka.png"
+          alt="sanitka"
+        />
+      </section>
+      <section className="main__desc">
         <h2>Emergency</h2>
         <ul>
-          <li>• 112 - general emergency number</li>
-          <li>• 155 - ambulance service</li>
-          <li>• 150 - fire brigade</li>
-          <li>• 158 – police</li>
+          <li>
+            <span>112</span> - general emergency number
+          </li>
+          <li>
+            <span>155</span> - ambulance service
+          </li>
+          <li>
+            <span>150</span> - fire brigade
+          </li>
+          <li>
+            <span>158</span> – police
+          </li>
         </ul>
-      </div>
+      </section>
     </>
   );
 };
