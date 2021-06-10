@@ -6,12 +6,12 @@ const Emergency = () => {
     <>
       <section className="main__picture">
         <img
-          className="main__pic"
+          className="emergency__pic"
           src="/assets/img/healthCareImg/sanitka.png"
           alt="sanitka"
         />
       </section>
-      <section className="main__desc">
+      <section className="main__desc--emergency">
         <h2>Emergency</h2>
         <ul>
           <li>
