@@ -23,6 +23,7 @@ import Emergency from './components/Emergency/Emergency';
 import ElementarySchool from './components/ElementarySchool/ElementarySchool';
 import Dinopark from './components/Dinopark/Dinopark';
 import Kurim from './components/Kurim/Kurim';
+import Ujezd from './components/Ujezd/Ujezd';
 
 import './style.css';
 
@@ -89,6 +90,9 @@ const App = () => (
           </Route>
           <Route path="/daysOut/kurim">
             <Kurim />
+          </Route>
+           <Route path="/daysOut/ujezd">
+            <Ujezd />
           </Route>
           <Route exact path="/parenthood">
             <Parenthood />
