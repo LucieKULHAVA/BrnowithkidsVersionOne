@@ -32,28 +32,41 @@ const Search = () => {
 
   return (
     <>
-      <div className="daysOut">
-        <h2 className="Title">My Favorite Destination</h2>
-      </div>
-      <SearchBar
-        placeholder="Enter the name of your favorite destination"
-        onChange={(e) => searchNazev(e.target.value)}
-      />
-
-      <div className="vylety">
-        {tripResult.map((trip) => (
-          <FamilyDayOut
-            key={trip.nazev}
-            id={trip.id}
-            nazev={trip.nazev}
-            tripPodtitul={trip.tripPodtitul}
-            stroller={trip.stroller}
-            distance={trip.distance}
-            popis={trip.popis}
-            foto={trip.foto}
+      <main id="container">
+        <section className="main__picture">
+          <img
+            className="main__pic"
+            src="/assets/img/coverPic.jpg"
+            alt="picture of family in the nature"
           />
-        ))}
-      </div>
+        </section>
+        <div className="daysOut">
+          <h2>Family days out</h2>
+        </div>
+        {/* <p>
+          What to see and to do with your kids? We have some great tips for you,
+          just have a look below:
+        </p> */}
+        <SearchBar
+          placeholder="Enter the name of your favorite destination"
+          onChange={(e) => searchNazev(e.target.value)}
+        />
+
+        <div className="vylety">
+          {tripResult.map((trip) => (
+            <FamilyDayOut
+              key={trip.nazev}
+              id={trip.id}
+              nazev={trip.nazev}
+              tripPodtitul={trip.tripPodtitul}
+              stroller={trip.stroller}
+              distance={trip.distance}
+              popis={trip.popis}
+              foto={trip.foto}
+            />
+          ))}
+        </div>
+      </main>
     </>
   );
 };

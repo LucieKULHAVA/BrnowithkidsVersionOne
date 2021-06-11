@@ -16,11 +16,21 @@ const FamilyDayOut = ({
           <img src={foto} alt={nazev} />
         </div>
         <div className="trip__detail">
-          <div className="trip__nazev">{nazev}</div>
-          <div className="trip__podtitul">{tripPodtitul}</div>
-          <div className="trip__stroller">{stroller}</div>
-          <div className="trip__distance">{distance}</div>
-          <div className="trip__popis">{popis}...</div>
+          <h3>{nazev}</h3>
+          <div className="trip__podtitul">
+            <p>{tripPodtitul}</p>
+          </div>
+          <div className="trip__stroller">
+            <p>
+              stroller: <span>{stroller}</span>
+            </p>
+          </div>
+          <div className="trip__distance">
+            <p>
+              distance: <span>{distance}km</span>
+            </p>
+          </div>
+          <div className="trip__popis">{popis}</div>
         </div>
       </div>
     </>

@@ -1,102 +1,62 @@
-.vylety > h2 {
-  color: white;
-}
-
-.daysOut h2 {
-  color: rgb(0, 121, 140);
-  text-align: center;
-}
-
-.daysOut h2:after {
-  display: none;
-}
-.hledani {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 15px;
-  background-color: rgb(237, 174, 73);
-  border-radius: 4px;
-  display: flex;
-}
-
-input,
-button {
-  padding: 10px 15px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  border: 2px solid black;
-  border-radius: 4px;
-  outline: 0;
-}
-
-input {
-  flex: 1;
-  margin-right: 10px;
-}
-
-button {
-  background-color: rgb(0, 121, 140);
-  color: rgb(237, 174, 73);
-  cursor: pointer;
-}
-
-button:active {
-  background-color: rgb(237, 174, 73);
-}
-
-.vylety {
-  max-width: 800px;
-  margin: 30px auto;
-}
+/* Styly pro výlety */
 
 .trip {
   display: flex;
-  align-items: flex-start;
+  justify-content: space-evenly;
   padding: 15px;
-  background-color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
-  border-radius: 4px;
+  margin: 2rem auto;
+  width: 100%;
 }
 
 .trip:hover {
   background-color: #f2e7da;
 }
 
-.trip + .trip {
-  margin-top: 10px;
-}
-
 .trip__foto {
-  flex: 0 0 25%;
+  flex: 0 0 50%;
   margin-right: 20px;
 }
 
 .trip__foto img {
-  display: block;
   width: 100%;
+  padding: 0 10px;
   border-radius: 4px;
+  transition: transform 1s;
+}
+.trip__foto:hover img {
+  transform: scale(1.12);
 }
 
 .trip__detail {
-  flex: 1;
-  font-size: 15px;
-}
-
-.trip__nazev {
-  font-family: 'Merriweather', serif;
+  padding-top: 20px;
+  padding-left: 20px;
   font-size: 20px;
+  line-height: 1;
 }
 
 .trip__podtitul {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 20px;
+  line-height: 1.5;
   color: #888;
+  padding-right: 50px;
 }
 
+.trip h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
 .trip__popis {
   margin-top: 10px;
 }
 
-.nadpisvylety {
-  text-align: center;
+.trip__stroller p span {
+  color: rgb(237, 174, 73);
+  font-weight: bold;
+}
+
+.trip__distance p span {
+  color: rgb(237, 174, 73);
+  font-weight: bold;
 }
