@@ -10,12 +10,12 @@ export const HealthCarePageMenu = [
     url: '/healthCare/vaccination',
   },
   {
-    src: '/assets/img/healthCareImg/firstAidNeup.png',
+    src: '/assets/img/healthCareImg/firstAidNeup.jpg',
     pageName: 'First Aid',
     url: '/healthCare/firstAid',
   },
   {
-    src: '/assets/img/healthCareImg/sanitka.png',
+    src: '/assets/img/healthCareImg/sanitka.jpg',
     pageName: 'Emergency',
     url: '/healthCare/emergency',
   },
