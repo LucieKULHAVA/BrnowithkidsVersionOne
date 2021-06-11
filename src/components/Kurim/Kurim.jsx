@@ -57,28 +57,28 @@ const Kurim = () => (
 
               <div className="kurim__foto">
             <div>
-              <img className="singlefoto" src="/assets/img/kurim.jpg" alt="výlet kuřim"/>
+              <img className="singlefoto" src="/assets/img/kurim/kurim.jpg" alt="výlet kuřim"/>
                
             </div>
             <div>
-            <img className="singlefoto" src="/assets/img/kurim.jpg" alt="výlet kuřim"/>
+            <img className="singlefoto" src="/assets/img/kurim/kurim.jpg" alt="výlet kuřim"/>
             </div>
             <div>
-            <img className="singlefoto" src="/assets/img/kurim.jpg" alt="výlet kuřim"/>
+            <img className="singlefoto" src="/assets/img/kurim/kurim.jpg" alt="výlet kuřim"/>
             </div>
            
             </div>
 
             <div className="kurim__foto">
             <div>
-              <img className="singlefoto" src="/assets/img/kurim.jpg" alt="výlet kuřim"/>
+              <img className="singlefoto" src="/assets/img/kurim/kurim.jpg" alt="výlet kuřim"/>
                
             </div>
             <div>
-            <img className="singlefoto" src="/assets/img/kurim.jpg" alt="výlet kuřim"/>
+            <img className="singlefoto" src="/assets/img/kurim/kurim.jpg" alt="výlet kuřim"/>
             </div>
             <div>
-            <img className="singlefoto" src="/assets/img/kurim.jpg" alt="výlet kuřim"/>
+            <img className="singlefoto" src="/assets/img/kurim/kurim.jpg" alt="výlet kuřim"/>
             </div>
            
             </div>
