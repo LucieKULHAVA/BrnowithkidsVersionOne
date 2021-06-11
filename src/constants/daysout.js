@@ -24,7 +24,7 @@ export const DayOut = [
   },
   {
     id: 3,
-    nazev: 'Educational Forest Path for children',
+    nazev: 'Kuřim Educational Forest Path',
     tripPodtitul: 'all you wanted to know about forest life',
     stroller: 'no',
     distance: 3.1,
