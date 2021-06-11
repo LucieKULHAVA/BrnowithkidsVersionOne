@@ -28,7 +28,7 @@ export const DayOut = [
     distance: 3.1,
     // popis:
     //   'For lovers of secrets of forest, games and beautiful views: The Educational forest path in Kuřim.Follow the description of the journey in the post.    ',
-    foto: 'kurim.jpg',
+    foto: '/assets/img/daysOutImg/kurim.jpg',
   },
    {
         id: 4,
@@ -38,7 +38,7 @@ export const DayOut = [
         distance: 3.6,
         // popis:
         //   'For lovers of secrets of forest, games and beautiful views: The Educational forest path in Kuřim.Follow the description of the journey in the post.    ',
-        foto: 'mokra-horakov.jpg',
+        foto: '/assets/img/daysOutImg/mokra.jpg',
       },
       {
         id: 5,
@@ -48,6 +48,6 @@ export const DayOut = [
         distance: 3.1,
         // popis:
         //   'For lovers of secrets of forest, games and beautiful views: The Educational forest path in Kuřim.Follow the description of the journey in the post.    ',
-        foto: 'ujezd.jpg',
+        foto: '/assets/img/daysOutImg/ujezd.jpg',
       },
 ];
