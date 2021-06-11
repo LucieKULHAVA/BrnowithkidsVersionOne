@@ -19,8 +19,8 @@ const University = () => {
             the list of all universities in Brno.{' '}
           </p>
           <h2>Public Universities</h2>
-          <div className="privateUnis">
-            <div className="privateUni">
+          <div className="publicUnis">
+            <div className="publicUni">
               <h3>Masaryk University</h3>
               <p>Komenského nám. 2, Brno 602 00</p>
               <p>
@@ -29,28 +29,28 @@ const University = () => {
                 </a>
               </p>
             </div>
-            <div className="privateUni">
+            <div className="publicUni">
               <h3>Mendel University</h3>
               <p>Zemědělská 1/1665, 613 00 Brno</p>
               <p>
                 <a href="https://mendelu.cz/en/">More details</a>
               </p>
             </div>
-            <div className="privateUni">
+            <div className="publicUni">
               <h3>Brno University of Technology</h3>
               <p>Antonínská 548/1, 601 90 Brno</p>
               <p>
                 <a href="https://www.vutbr.cz/en/?aid_redir=1">More details</a>
               </p>
             </div>
-            <div className="privateUni">
+            <div className="publicUni">
               <h3>University of Veterinary Sciences Brno</h3>
               <p>Palackého třída 1/3, 612 42 Brno</p>
               <p>
                 <a href="https://www.vfu.cz/en/">More details</a>
               </p>
             </div>
-            <div className="privateUni">
+            <div className="publicUni">
               <h3>The Janáček Academy of Music and Performing Arts</h3>
               <p>Beethovenova 2, 602 00 Brno</p>
               <p>
@@ -59,7 +59,7 @@ const University = () => {
                 </a>
               </p>
             </div>
-            <div className="privateUni">
+            <div className="publicUni">
               <h3>Univerzita obrany</h3>
               <p>Kounicova 65, 662 10 Brno</p>
               <p>

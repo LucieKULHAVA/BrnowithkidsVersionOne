@@ -32,11 +32,22 @@
   margin-top: 2rem;
 }
 
+.publicUni {
+  border: 2px solid rgb(237, 174, 73);
+  border-radius: 5px;
+  max-width: 500px;
+  max-height: 500px;
+  line-height: 0.5;
+  text-align: left;
+  margin-top: 2rem;
+}
+
 .universities p span {
   color: rgb(24, 78, 119);
 }
 
-.privateUni h3 {
+.privateUni h3,
+.publicUni h3 {
   text-align: left;
   font-size: 18px;
   padding-left: 30px;
@@ -47,13 +58,15 @@
     height: 815px;
   }
 
-  .privateUnis {
+  .privateUnis,
+  .publicUnis {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
-  .privateUni {
+  .privateUni,
+  .publicUni {
     flex: 0 1 calc(100% / 2 - 40px);
   }
 }
