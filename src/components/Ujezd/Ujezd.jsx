@@ -5,7 +5,7 @@ const Ujezd = () => (
   <>
    <div className="kurim__detail">
   <div className="kurim__nazev">Újezd u Brna</div>
-                  <div className="kurim__podtitul">amazing educational forest path</div>
+                  <div className="kurim__podtitul">animal farm and paradise of playgrounds</div>
                   <div className="kurim__popis">
                    <p>
                    Are you bored of playgrounds in Brno? Discover with us a new playground in Újezd ​​u Brna.
