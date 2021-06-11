@@ -7,7 +7,7 @@ const BikeBus = () => {
       <section className="main__picture">
         <img
           className="bike__pic"
-          src="/assets/img/travellingImg/bikeBus.png"
+          src="/assets/img/travellingImg/bikeBus.jpg"
           alt="cestování s kolem v autobuse"
         />
       </section>

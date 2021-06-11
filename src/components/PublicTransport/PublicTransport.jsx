@@ -7,7 +7,7 @@ const PublicTransport = () => {
       <section className="main__picture">
         <img
           className="children__pic"
-          src="/assets/img/travellingImg/childrenPublicTransport.png"
+          src="/assets/img/travellingImg/childrenPublicTransport.jpg"
           alt="cestování s dětmi v MHD"
         />
       </section>

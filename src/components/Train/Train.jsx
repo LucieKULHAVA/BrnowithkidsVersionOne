@@ -7,7 +7,7 @@ const Train = () => {
       <section className="main__picture">
         <img
           className="train__pic"
-          src="/assets/img/travellingImg/strollerTrain.png"
+          src="/assets/img/travellingImg/strollerTrain.jpg"
           alt="cestování s kočárkem ve vlaku"
         />
       </section>

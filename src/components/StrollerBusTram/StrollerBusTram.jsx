@@ -7,7 +7,7 @@ const StrollerBusTram = () => {
       <section className="main__picture">
         <img
           className="stroller__pic"
-          src="/assets/img/travellingImg/strollerBus.png"
+          src="/assets/img/travellingImg/strollerBus.jpg"
           alt="nástup do autobusu s kočárkem"
         />
       </section>
