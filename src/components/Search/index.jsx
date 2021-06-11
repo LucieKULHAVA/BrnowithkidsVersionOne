@@ -63,6 +63,7 @@ const Search = () => {
               distance={trip.distance}
               popis={trip.popis}
               foto={trip.foto}
+              url={trip.url}
             />
           ))}
         </div>

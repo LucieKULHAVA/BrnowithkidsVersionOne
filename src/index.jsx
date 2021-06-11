@@ -21,6 +21,7 @@ import Highschool from './components/Highschool/Highschool';
 import FirstAid from './components/FirstAid/FirstAid';
 import Emergency from './components/Emergency/Emergency';
 import ElementarySchool from './components/ElementarySchool/ElementarySchool';
+import Dinopark from './components/Dinopark/Dinopark';
 
 import './style.css';
 
@@ -81,6 +82,9 @@ const App = () => (
           </Route>
           <Route exact path="/daysOut">
             <Search />
+          </Route>
+          <Route path="/daysOut/dinopark">
+            <Dinopark />
           </Route>
           <Route exact path="/parenthood">
             <Parenthood />

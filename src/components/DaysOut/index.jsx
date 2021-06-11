@@ -1,7 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './style.css';
 
 const FamilyDayOut = ({
+  url,
   foto,
   nazev,
   tripPodtitul,
@@ -13,7 +15,9 @@ const FamilyDayOut = ({
     <>
       <div className="trip">
         <div className="trip__foto">
-          <img src={foto} alt={nazev} />
+          <Link to={url}>
+            <img src={foto} alt={nazev} />
+          </Link>
         </div>
         <div className="trip__detail">
           <h3>{nazev}</h3>
