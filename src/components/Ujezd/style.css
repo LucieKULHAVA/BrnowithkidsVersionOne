@@ -36,9 +36,7 @@
     
   }
   
-  .kurim__foto:hover {
-    background-color: #f2e7da;
-  }
+
   .kurim__detail {
     flex: 1;
     font-size: 15px;
