@@ -30,4 +30,24 @@ export const DayOut = [
     //   'For lovers of secrets of forest, games and beautiful views: The Educational forest path in Kuřim.Follow the description of the journey in the post.    ',
     foto: 'kurim.jpg',
   },
+   {
+        id: 4,
+        nazev: 'Mokrá-Horákov - all for children in one spot',
+        tripPodtitul: 'Small village Brno nearby with perfect playgrounds, cute lookout tower, horses and ponies and open cafes',
+        stroller: 'yes',
+        distance: 3.6,
+        // popis:
+        //   'For lovers of secrets of forest, games and beautiful views: The Educational forest path in Kuřim.Follow the description of the journey in the post.    ',
+        foto: 'mokra-horakov.jpg',
+      },
+      {
+        id: 5,
+        nazev: 'Újezd u Brna - animal farm and best playgrounds ever',
+        tripPodtitul: `Are you bored of playgrounds in Brno? Discover with us a new playground in Újezd ​​u Brna. This time we recommend to take a scooter with you `,
+        stroller: 'yes',
+        distance: 3.1,
+        // popis:
+        //   'For lovers of secrets of forest, games and beautiful views: The Educational forest path in Kuřim.Follow the description of the journey in the post.    ',
+        foto: 'ujezd.jpg',
+      },
 ];
