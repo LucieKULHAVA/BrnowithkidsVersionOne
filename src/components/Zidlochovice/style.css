@@ -1,0 +1,51 @@
+/* Zidlochovice styly */
+.trip__wrap {
+  padding: 0 60px;
+  margin-bottom: 3rem;
+}
+
+.kurim__popis p {
+  text-align: justify;
+}
+
+.kurim__popis p #highlight {
+  color: rgb(237, 174, 73);
+  font-weight: bold;
+}
+
+.kurim__popis p span {
+  color: rgb(24, 78, 119);
+  font-weight: bold;
+}
+
+.kurim__fotos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+}
+
+.kurim__pic {
+  flex: 0 0 calc(100% / 2 - 10px);
+}
+
+.kurim__pic img {
+  width: 100%;
+  padding: 1rem;
+  transition: transform 1s;
+}
+
+.kurim__pic:hover img {
+  transform: scale(1.2);
+}
+
+.kurim__pic:hover {
+  background-color: #f2e7da;
+}
+
+.kurim__podtitul p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #888;
+  padding-left: 60px;
+}
