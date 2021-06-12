@@ -1,11 +1,11 @@
 .doctorfinder h2 {
-  color: rgb(24, 78, 119);
-  text-align: center;
+  color: rgb(237, 174, 73);
+  /* text-align: center; */
   padding: 0;
 }
 
 .doctorfinder h2:after {
-  display: none;
+  /* display: none; */
 }
 
 #doctor_desc {

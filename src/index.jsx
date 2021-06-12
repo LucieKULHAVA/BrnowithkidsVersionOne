@@ -24,6 +24,8 @@ import ElementarySchool from './components/ElementarySchool/ElementarySchool';
 import Dinopark from './components/Dinopark/Dinopark';
 import Kurim from './components/Kurim/Kurim';
 import Ujezd from './components/Ujezd/Ujezd';
+import Zidlochovice from './components/Zidlochovice/Zidlochovice';
+import MokraHorakov from './components/MokraHorakov/MokraHorakov';
 
 import './style.css';
 
@@ -91,8 +93,14 @@ const App = () => (
           <Route path="/daysOut/kurim">
             <Kurim />
           </Route>
-           <Route path="/daysOut/ujezd">
+          <Route path="/daysOut/ujezd">
             <Ujezd />
+          </Route>
+          <Route path="/daysOut/zidlochovice">
+            <Zidlochovice />
+          </Route>
+          <Route path="/daysOut/mokraHorakov">
+            <MokraHorakov />
           </Route>
           <Route exact path="/parenthood">
             <Parenthood />

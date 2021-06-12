@@ -1,5 +1,8 @@
 /* Emergency styly */
 
+.emergency__wrap {
+  width: 960px;
+}
 .emergency__pic {
   width: 100%;
   height: 800px;
