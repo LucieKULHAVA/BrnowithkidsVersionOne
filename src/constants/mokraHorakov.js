@@ -9,7 +9,7 @@ export const mokraHorakov = [
   },
   {
     id: 3,
-    src: '/assets/img/mokraHorakov.jpg',
+    src: '/assets/img/mokraHorakov/3.jpg',
   },
   {
     id: 4,
