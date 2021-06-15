@@ -39,6 +39,6 @@ export const Profil = [
     name: 'Anna',
     homecountry: 'Ukraine',
     languages: 'Ukrainian, English, Lithuanian, Russian',
-    kids: 'Two amazing son',
+    kids: 'One amazing son',
   },
 ];
